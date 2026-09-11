@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Oak & Home about a custom furniture project.">
+    <title>Contact | Oak & Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <nav class="nav container">
+        <a class="brand" href="index.html">Oak & Home</a>
+        <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <div class="nav-menu">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link active" href="contact.html">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="page-hero">
+        <div class="container narrow">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h1>Tell us about your project.</h1>
+            <p>Whether you know exactly what you want or just have an idea, start the conversation below.</p>
+        </div>
+    </section>
+
+    <section class="section container contact-grid">
+        <div>
+            <p class="eyebrow">CONTACT DETAILS</p>
+            <h2>Let's talk furniture.</h2>
+            <p class="prose">For quotes, custom work, collaborations or general questions, contact us directly or use the form.</p>
+
+            <div class="contact-details">
+                <div><strong>Email</strong><a href="mailto:hello@oakandhome.com">hello@oakandhome.com</a></div>
+                <div><strong>Phone</strong><a href="tel:+40123456789">+40 123 456 789</a></div>
+                <div><strong>Workshop</strong><span>Your Street 123<br>Your City, Romania</span></div>
+                <div><strong>Hours</strong><span>Mon–Fri, 09:00–17:00</span></div>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-row">
+                <label>Name<input type="text" name="name" autocomplete="name" required></label>
+                <label>Email<input type="email" name="email" autocomplete="email" required></label>
+            </div>
+            <label>Phone<input type="tel" name="phone" autocomplete="tel"></label>
+            <label>Project type
+                <select name="project">
+                    <option value="">Choose one</option>
+                    <option>Custom furniture</option>
+                    <option>Dining table</option>
+                    <option>Living room</option>
+                    <option>Bedroom</option>
+                    <option>Kitchen</option>
+                    <option>Other</option>
+                </select>
+            </label>
+            <label>Message<textarea name="message" rows="7" required placeholder="Tell us about your room, dimensions, style, materials or anything else that would help."></textarea></label>
+            <button class="button button-dark" type="submit">Send enquiry</button>
+            <p class="form-status" id="form-status" role="status"></p>
+        </form>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-grid"><div><a class="brand brand-footer" href="index.html">Oak & Home</a><p>Custom furniture, thoughtfully made.</p></div><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="gallery.html">Gallery</a></div></div>
+    <div class="container footer-bottom"><span>© 2026 Oak & Home</span><span>Made with care.</span></div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
