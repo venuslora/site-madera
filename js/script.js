@@ -5,44 +5,134 @@
 // ============================================================
 
 const gallery = {
-    "Proiect 1": {
-        id: "unu",
-        description: "Descriere placeholder.",
+    "Apartament 1": {
+        id: "apartament-1",
+        description: "Proiect de mobilier personalizat pentru Apartament 1.",
         images: [
-            "images/living-room/1.jpg",
-            "images/living-room/2.jpg",
-            "images/living-room/3.jpg",
-            "images/living-room/4.jpg"
+            "./images/Apartament1/apt_1_1.jpg",
+            "./images/Apartament1/apt_1_2.jpg",
+            "./images/Apartament1/apt_1_3.jpg",
+            "./images/Apartament1/apt_1_4.jpg",
+            "./images/Apartament1/apt_1_5.jpg"
         ]
     },
 
-    "Proiect 2": {
-        id: "doi",
-        description: "Descriere placeholder.",
+    "Apartament 2": {
+        id: "apartament-2",
+        description: "Proiect de mobilier personalizat pentru Apartament 2.",
         images: [
-            "images/bedroom/1.jpg",
-            "images/bedroom/2.jpg",
-            "images/bedroom/3.jpg"
+            "./images/Apartament2/apartament (1).jpg",
+            "./images/Apartament2/apartament (2).jpeg",
+            "./images/Apartament2/apartament (3).jpg",
+            "./images/Apartament2/apartament (4).jpg",
+            "./images/Apartament2/apartament (5).jpg",
+            "./images/Apartament2/apartament (6).jpg",
+            "./images/Apartament2/apartament (7).jpg",
+            "./images/Apartament2/apartament (8).jpg",
+            "./images/Apartament2/apartament (9).jpg",
+            "./images/Apartament2/apartament (10).jpg",
+            "./images/Apartament2/apartament (11).jpg",
+            "./images/Apartament2/apartament (12).jpeg"
         ]
     },
 
-    "Proiect 3": {
-        id: "trei",
-        description: "Descriere placeholder.",
+    "Apartament 3": {
+        id: "apartament-3",
+        description: "Proiect de mobilier personalizat pentru Apartament 3.",
         images: [
-            "images/kitchen/1.jpg",
-            "images/kitchen/2.jpg",
-            "images/kitchen/3.jpg",
-            "images/kitchen/4.jpg",
-            "images/kitchen/5.jpg"
+            "./images/Apartament3/apt_2 (1).jpg",
+            "./images/Apartament3/apt_2 (2).jpeg",
+            "./images/Apartament3/apt_2 (3).jpeg",
+            "./images/Apartament3/apt_2 (4).jpg",
+            "./images/Apartament3/apt_2 (5).jpg",
+            "./images/Apartament3/apt_2 (6).JPG",
+            "./images/Apartament3/apt_2 (7).jpg",
+            "./images/Apartament3/apt_2 (8).jpeg",
+            "./images/Apartament3/apt_2 (9).jpeg",
+            "./images/Apartament3/apt_2 (10).jpeg"
         ]
     },
 
-    "Proiect 4": {
-        id: "patru",
-        description: "Descriere placeholder.",
+    "Living": {
+        id: "living",
+        description: "Proiecte de mobilier personalizat pentru living.",
         images: [
-            "images/office/1.jpg"
+            "./images/living/living (1).jpg",
+            "./images/living/living (2).jpeg",
+            "./images/living/living (3).jpg",
+            "./images/living/living (4).jpg",
+            "./images/living/living (5).jpg",
+            "./images/living/living (6).jpg",
+            "./images/living/living (7).jpg",
+            "./images/living/living (1).jpeg",
+            "./images/living/living (2).jpeg"
+        ]
+    },
+
+    "Dormitor": {
+        id: "dormitor",
+        description: "Proiecte de mobilier personalizat pentru dormitor.",
+        images: [
+            "./images/dormitor/dormitor (1).jpg",
+            "./images/dormitor/dormitor (2).jpg",
+            "./images/dormitor/dormitor (3).jpg",
+            "./images/dormitor/dormitor (4).jpg",
+            "./images/dormitor/dormitor (5).JPG",
+            "./images/dormitor/dormitor (6).JPG",
+            "./images/dormitor/dormitor (7).jpg",
+            "./images/dormitor/dormitor (11).jpeg"
+        ]
+    },
+
+    "Bucătărie": {
+        id: "bucatarie",
+        description: "Proiecte de mobilier personalizat pentru bucătărie.",
+        images: [
+            "./images/bucatarie/buc (1).jpg",
+            "./images/bucatarie/buc (2).jpg",
+            "./images/bucatarie/buc (3).jpg",
+            "./images/bucatarie/buc (4).jpg",
+            "./images/bucatarie/buc (5).jpg",
+            "./images/bucatarie/buc (6).jpg",
+            "./images/bucatarie/buc (7).jpg",
+            "./images/bucatarie/buc (8).jpg",
+            "./images/bucatarie/buc (9).jpg",
+            "./images/bucatarie/buc (10).jpg",
+            "./images/bucatarie/buc (11).jpeg"
+        ]
+    },
+
+    "Baie": {
+        id: "baie",
+        description: "Proiecte de mobilier personalizat pentru baie.",
+        images: [
+            "./images/baie/baie_1.jpg",
+            "./images/baie/baie_2.jpg",
+            "./images/baie/baie_3.jpg",
+            "./images/baie/baie_4.jpg",
+            "./images/baie/baie_5.jpg",
+            "./images/baie/baie_6.jpg"
+        ]
+    },
+
+    "Afaceri": {
+        id: "afaceri",
+        description: "Proiecte de mobilier personalizat pentru spații comerciale.",
+        images: [
+            "./images/afaceri/avo_1.jpg",
+            "./images/afaceri/avo_2.jpg",
+            "./images/afaceri/bar_1.jpg",
+            "./images/afaceri/bar_2.jpg",
+            "./images/afaceri/birou_1.jpg",
+            "./images/afaceri/galben_1.jpg",
+            "./images/afaceri/galben_2.jpg",
+            "./images/afaceri/lemn_1.jpg",
+            "./images/afaceri/lemn_2.jpg",
+            "./images/afaceri/notar_1.jpg",
+            "./images/afaceri/receptie_1.jpg",
+            "./images/afaceri/tur_1.jpg",
+            "./images/afaceri/tur_2.jpg",
+            "./images/afaceri/tur_3.jpg"
         ]
     }
 };

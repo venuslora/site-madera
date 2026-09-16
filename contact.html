@@ -32,14 +32,23 @@
         <div>
             <p class="eyebrow">DETALII DE CONTACT</p>
             <h2>Hai să discutăm despre proiectul tău!</h2>
-            <p class="prose">Pentru lucrări personalizate, colaborări sau întrebări generale, contactează-ne direct sau folosește formularul.</p>
+            <p class="prose">Pentru lucrări personalizate, colaborări sau întrebări generale, contactează-ne direct</p>
 
             <div class="contact-details">
                 <div><strong>Email</strong><a href="mailto:hello@madera.ro">hello@madera.ro</a></div>
-                <div><strong>Telefon</strong><a href="tel:+40123456789">+40 123 456 789</a></div>
-                <div><strong>Ore de lucru</strong><span>Lu–Vi, 09:00–17:00</span></div>
             </div>
         </div>
+
+         <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-row">
+                <label>Nume<input type="text" name="name" autocomplete="name" required></label>
+                <label>Email<input type="email" name="email" autocomplete="email" required></label>
+            </div>
+            <label>Telefon<input type="tel" name="phone" autocomplete="tel"></label>
+            <label>Mesaj<textarea name="message" rows="7" required placeholder="Spune-ne despre camera ta, dimensiuni, stil, materiale sau orice altceva care ar putea ajuta."></textarea></label>
+            <button class="button button-dark" type="submit">Trimite solicitarea</button>
+            <p class="form-status" id="form-status" role="status"></p>
+        </form>
     </section>
 </main>
 

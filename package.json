@@ -1,0 +1,24 @@
+{
+  "name": "site-madera",
+  "version": "1.0.0",
+  "description": "serve site madera",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venuslora/site-madera.git"
+  },
+  "author": "nistor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venuslora/site-madera/issues"
+  },
+  "homepage": "https://github.com/venuslora/site-madera#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
