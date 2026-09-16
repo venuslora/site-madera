@@ -25,8 +25,8 @@ images: [
 Copy one room object in js/script.js, give it a unique `id`, and add its image paths.
 
 ## Contact form
-The form uses Formspree. Replace YOUR_FORM_ID in contact.html with your Formspree form ID.
-Alternatively, replace the form action and JS submission logic with your own backend.
+The form posts to the local `/api/send` endpoint. Set `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`,
+`SMTP_PASS`, `MAIL_FROM`, and `MAIL_TO` in the environment before starting the server.
 
 ## Local images
 Put your actual files into the images folders. The gallery does not require a fixed number of images.

@@ -677,9 +677,7 @@ if (menuButton && navigation) {
 
 
 /* =========================================================
-   CONTACT FORM
-   The form is configured for Formspree in contact.html.
-   Replace YOUR_FORM_ID with your actual Formspree ID.
+    CONTACT FORM
 ========================================================= */
 const contactForm = document.querySelector("#contact-form");
 const formStatus = document.querySelector("#form-status");
@@ -698,8 +696,11 @@ if (contactForm && formStatus) {
         try {
             const response = await fetch(contactForm.action, {
                 method: "POST",
-                body: new FormData(contactForm),
-                headers: { Accept: "application/json" }
+                body: JSON.stringify(Object.fromEntries(new FormData(contactForm))),
+                headers: {
+                    Accept: "application/json",
+                    "Content-Type": "application/json"
+                }
             });
 
             if (!response.ok) throw new Error("Form submission failed.");
