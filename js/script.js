@@ -5,9 +5,9 @@
 // ============================================================
 
 const gallery = {
-    "Living Room": {
-        id: "living-room",
-        description: "Comfortable, timeless furniture designed for everyday living.",
+    "Proiect 1": {
+        id: "unu",
+        description: "Descriere placeholder.",
         images: [
             "images/living-room/1.jpg",
             "images/living-room/2.jpg",
@@ -16,9 +16,9 @@ const gallery = {
         ]
     },
 
-    "Bedroom": {
-        id: "bedroom",
-        description: "Calm and functional bedroom furniture made for restful spaces.",
+    "Proiect 2": {
+        id: "doi",
+        description: "Descriere placeholder.",
         images: [
             "images/bedroom/1.jpg",
             "images/bedroom/2.jpg",
@@ -26,9 +26,9 @@ const gallery = {
         ]
     },
 
-    "Kitchen & Dining": {
-        id: "kitchen",
-        description: "Practical kitchen and dining pieces with a warm, considered feel.",
+    "Proiect 3": {
+        id: "trei",
+        description: "Descriere placeholder.",
         images: [
             "images/kitchen/1.jpg",
             "images/kitchen/2.jpg",
@@ -38,9 +38,9 @@ const gallery = {
         ]
     },
 
-    "Home Office": {
-        id: "office",
-        description: "Functional desks, storage and furniture for productive workspaces.",
+    "Proiect 4": {
+        id: "patru",
+        description: "Descriere placeholder.",
         images: [
             "images/office/1.jpg"
         ]
@@ -62,7 +62,6 @@ if (galleryRoot) {
 
         section.innerHTML = `
             <div class="gallery-heading">
-                <p class="eyebrow">Collection</p>
                 <h2>${roomName}</h2>
                 <p>${room.description}</p>
             </div>
